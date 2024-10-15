@@ -71,7 +71,7 @@ Create a .env.local file in the root directory and add your Mistral API key:
 
           
                    NEXT_PUBLIC_MISTRAL_API_KEY=your-mistral-api-key
-###Usage
+## Usage
 To start the development server, run the following command:
 
 Using npm:
