@@ -57,19 +57,19 @@ Install the dependencies:
 
 Using npm:
 
-bash
+```bash
 Copy code
 npm install
 Or using yarn:
-
-bash
+ 
+```bash
 Copy code
 yarn install
 Set up environment variables:
 
 Create a .env.local file in the root directory and add your Mistral API key:
 
-bash
+```bash
 Copy code
 NEXT_PUBLIC_MISTRAL_API_KEY=your-mistral-api-key
 Usage
@@ -77,12 +77,12 @@ To start the development server, run the following command:
 
 Using npm:
 
-bash
+```bash
 Copy code
 npm run dev
 or using yarn:
 
-bash
+```bash
 Copy code
 yarn dev
 This will start the application locally at http://localhost:3000.
