@@ -50,39 +50,37 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/Konstantilieris/DilonChatbot.gitNavigate to the project directory:
 2. Navigate to the project directory:
 
-      ```bash
-         Copy code
+     
+         
           cd DilonChatbot
 3. Install the dependencies:
 
 Using npm:
 
-           ```bash
-            Copy code
+          
+          
             npm install
-               Or using yarn:
+            
  
            
-          Copy code
-         yarn install
+         
+        
 4. Set up environment variables:
 
 Create a .env.local file in the root directory and add your Mistral API key:
 
-            ```bash
-                  Copy code
+          
                    NEXT_PUBLIC_MISTRAL_API_KEY=your-mistral-api-key
 Usage
 To start the development server, run the following command:
 
 Using npm:
 
-           ```bash
-            Copy code
+      
              npm run dev
              or using yarn
-            ```bash
-           Copy code
+          
+      
             yarn dev
             
             This will start the application locally at http://localhost:3000.
