@@ -71,19 +71,22 @@ Create a .env.local file in the root directory and add your Mistral API key:
 
           
                    NEXT_PUBLIC_MISTRAL_API_KEY=your-mistral-api-key
-Usage
+###Usage
 To start the development server, run the following command:
 
 Using npm:
 
-      
-             npm run dev
-             or using yarn
+
+         npm run dev
+
+   
+    
+Or using yarn
           
       
-            yarn dev
+      yarn dev
             
-            This will start the application locally at http://localhost:3000.
+ This will start the application locally at http://localhost:3000.
 
 Interacting with the Chatbot
 Once the application is running, you can type a query into the input field, and the chatbot will respond with a message powered by Mistral AI.
