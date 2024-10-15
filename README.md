@@ -48,6 +48,7 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    git clone https://github.com/Konstantilieris/DilonChatbot.gitNavigate to the project directory:
+Navigate to the project directory:
 
 bash
 Copy code
@@ -74,10 +75,12 @@ NEXT_PUBLIC_MISTRAL_API_KEY=your-mistral-api-key
 Usage
 To start the development server, run the following command:
 
+Using npm:
+
 bash
 Copy code
 npm run dev
-or
+or using yarn:
 
 bash
 Copy code
@@ -86,55 +89,6 @@ This will start the application locally at http://localhost:3000.
 
 Interacting with the Chatbot
 Once the application is running, you can type a query into the input field, and the chatbot will respond with a message powered by Mistral AI.
-
-Testing
-You can run unit tests and integration tests to ensure everything is working as expected.
-
-Run Unit Tests:
-
-bash
-Copy code
-npm test
-or
-
-bash
-Copy code
-yarn test
-Run End-to-End Tests (if configured with a tool like Cypress):
-
-bash
-Copy code
-npm run e2e
-Environment Variables
-The project requires the following environment variables to run properly. Make sure to set these in your .env.local file.
-
-NEXT_PUBLIC_MISTRAL_API_KEY: Your API key for Mistral AI.
-For example, your .env.local file should look like this:
-
-bash
-Copy code
-NEXT_PUBLIC_MISTRAL_API_KEY=your-api-key
-Contributing
-We welcome contributions! Follow these steps to contribute:
-
-Fork the repository.
-
-Create a new branch for your feature or bug fix:
-
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes with a descriptive message:
-
-bash
-Copy code
-git commit -m "Added new feature"
-Push your branch to GitHub:
-
-bash
-Copy code
-git push origin feature-name
-Open a pull request with a description of your changes.
 
 
 
